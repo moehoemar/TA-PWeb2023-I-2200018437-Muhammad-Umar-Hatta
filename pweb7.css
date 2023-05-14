@@ -1,0 +1,42 @@
+body {
+  background: aqua;
+  background: radial-gradient(circle, rgba(195,34,170,1) 0%, rgba(45,115,253,1) 95%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(255, 255, 255);
+}
+ 
+h3 {
+  color: #fff;
+  text-align: center;
+}
+ 
+.login {
+  position:fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  padding: 20px 25px;
+  width: 350px;
+  border-radius: 5%;
+
+  background-color: rgba(163, 37, 37, 0.7);
+  box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+ 
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 8px;
+  width: 95%;
+  background: #efefef;
+  border: 0;
+  font-size: 10pt;
+  margin: 6px 0px;
+}
+ 
+.tombol {
+  background: #3498db;
+  color: #fff;
+  border: 0;
+  padding: 5px 8px;
+}
