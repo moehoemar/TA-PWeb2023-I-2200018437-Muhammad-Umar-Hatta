@@ -1,0 +1,9 @@
+<?php
+$arrBuah=array("Chevrolet","Jaguar","Peugeot","Ford");
+$arrNilai=array("Alvin"=>80,"Simon"=>70,"Theodore"=>95);
+echo"<pre>";
+print_r($arrBuah);
+echo"<br>";
+print_r($arrNilai);
+echo"</pre>";
+?>
