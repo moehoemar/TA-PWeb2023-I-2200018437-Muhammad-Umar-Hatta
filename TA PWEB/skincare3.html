@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <!--Feather Icons-->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!--CSS-->
+  <link rel="stylesheet" href="skincare.css">
+
+  <title>SKINTIFIC - Blue Barrier Set 3PCS</title>
+  <link rel="shortcut icon" href="A.jpeg">
+</head>
+<body>
+<!--Navbar Start-->
+<nav class="navbar">
+  <a href=" " class="navbar-title">Ayu<span>Skincare</span></a>
+  <div class="navbar-nav">
+    <a href="#PRODUCT">PRODUCT</a>
+    <a href="#TENTANG">TENTANG</a>
+  </div>
+</nav>
+<br>
+<!--Navbar End-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skincare Shop</title>
+</head>
+<body>
+  <br>
+  <div class="container">
+    <table class="product-table">
+      <tr>
+        <td class="image-cell">
+          <img src="skincaree-03.jpg" alt="Skincare 3">
+        </td>
+        <td class="description-cell">
+          <h3>SKINTIFIC - Glowing Set 3PCS</h3>
+          <p><b>Rp. 299.000</b></p>
+          <p>-Skintific MSH Niacinamide Brightening Moisture Gel</p>
+          <p>Ukuran: 30 ml</p>
+          <p>-SKINTIFIC Mugwort Anti Acne Clay Mask</p>
+          <p>Ukuran: 55 g</p>
+          <p>-SKINTIFIC 4D Hyaluronic Acid Barrier Essence Toner</p>
+          <p>Ukuran: 100 ml</p>
+        </td>
+        <td class="form-cell">
+          <h3>Pemesanan</h3>
+          <form id="orderForm1" action="phpresponsi.php" method="POST" onsubmit="return validateForm(formId)">
+            <label for="name"><b>Nama:</b></label>
+            <input type="text" id="name" name="name" required>
+          
+            <label for="quantity"><b>Jumlah:</b></label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+            
+            <label for="send"><b>Pengiriman:</b></label><br>
+            <input type="checkbox" id="send1" name="send[]" value="Regular">
+            <label for="send1">Regular</label><br>
+            <input type="checkbox" id="send2" name="send[]" value="Ekspress">
+            <label for="send2">Ekspress</label><br>
+            <input type="checkbox" id="send3" name="send[]" value="One Day">
+            <label for="send3">One Day</label><br>
+            
+            <label for="ekspedisi"><b>Ekspedisi:</b></label><br>
+            <input type="checkbox" id="ekspedisi1" name="ekspedisi[]" value="JNE">
+            <label for="ekspedisi1">JNE</label><br>
+            <input type="checkbox" id="ekspedisi2" name="ekspedisi[]" value="JNT">
+            <label for="ekspedisi2">JNT</label><br>
+            <input type="checkbox" id="ekspedisi3" name="ekspedisi[]" value="TIKI">
+            <label for="ekspedisi3">TIKI</label><br>
+          
+            <label for="address"><b>Alamat Pengiriman:</b></label>
+            <textarea id="address" name="address" required></textarea>
+          
+            <button type="submit"><b>PESAN</b></button>
+          </form>
+          
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <script type="text/javascript">
+    function validateForm(formId){
+    var Nama = document.getElementById("name").value;
+    var Jumlah = document.getElementById("quantity").value;
+    var Pengiriman = document.getElementById("send").value;
+    var Ekspedisi = document.getElementById("expedition").value;
+    var Alamat = document.getElementById("address").value;
+    if (name !="" && quantity !="" && send !="" && expedition !="" && address !="") {
+      return true;
+    }else{
+       alert('Anda harus mengisi data dengan lengkap !')
+     }
+
+    }
+  </script>
+
+</body>
+</html>
+
+
+
+<!--Footer Start-->
+<br>
+<br>
+<br>
+<table class="Footer">
+  <tr>
+    <td class="left-align">
+      <h4>Metode Pembayaran</h4>
+      <img src="metode pembayaran.png" alt="metode" class="metode">
+      </td>
+      <td colspan=""></td>
+      <td class="right-align">
+        <h4>Layanan Pelanggan</h4>
+        <p>cs@ayuSkincare.com</p>
+        <p>Copyright © 2023 Ayu Skincare owned by</p>
+        <p>PT Opto Lumbung Sejahtera.</p>
+        <p>All rights reserved.</p>
+    </td>
+  </tr>
+</table> 
+<!--Footer End-->

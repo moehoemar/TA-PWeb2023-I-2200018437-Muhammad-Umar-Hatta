@@ -1,0 +1,12 @@
+Nama Pembeli: mar
+Jumlah: 6
+Pengiriman: Regular
+Ekspedisi: JNT
+Alamat: JOMBANG
+------------------------
+Nama Pembeli: mar
+Jumlah: 5
+Pengiriman: Ekspress
+Ekspedisi: JNT
+Alamat: wirobrajan
+------------------------

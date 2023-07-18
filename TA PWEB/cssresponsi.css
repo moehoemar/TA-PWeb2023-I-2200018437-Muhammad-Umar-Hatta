@@ -1,0 +1,141 @@
+:root{
+  --primary: #ffffff;
+  --bg: #9BE8D8;
+}
+/*Body Section Start*/
+body{
+  font-family: 'Assistant', sans-serif;
+  background-color: var(--primary);
+}
+/*Body Section End*/
+
+/*Navbar Start*/
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FFD0D0;
+  padding: 10px;
+  z-index: 999;
+}
+
+.navbar-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #010101;
+  text-decoration: none;
+}
+
+.navbar-title span {
+  font-weight: 500;
+}
+
+.navbar-nav {
+  position: absolute;
+  top: 10px; 
+  right: 10px; 
+}
+
+.navbar-nav a {
+  font-weight: 700;
+  font-size: 17px;
+  margin-right: 15px;
+  color: #010101;
+  text-decoration: none;
+}
+
+.navbar-nav a:hover {
+  color: #fff;
+}
+
+
+.navbar-nav a:hover {
+  color: #fff;
+}
+
+.hero {
+  margin-top: 60px; /* Sesuaikan dengan tinggi navbar */
+}
+
+.hero-title {
+  margin-top: 0;
+}
+
+/*Navbar End*/
+
+/*Hero Section Start*/
+
+.image-table {
+  margin: 0 auto;
+}
+
+.image-table td {
+  text-align: center;
+  padding: 10px;
+}
+
+.imagetable {
+  margin: 0 auto;
+}
+
+.imagetable td {
+  text-align: center;
+  padding: 10px;
+}
+
+.hero .content img.skincare1,img.skincare2, img.skincare3, img.skincare4, img.skincare5, img.metode {
+  position: relative;
+  height: 260px;
+}
+
+img.skincare1,img.skincare2, img.skincare3, img.skincare4, img.skincare5 {
+  transition: transform 0.3s ease;
+}
+
+img.skincare1:hover,img.skincare2:hover, img.skincare3:hover, img.skincare4:hover, img.skincare5:hover {
+  transform: scale(1.2);
+}
+
+.hero .content img.metode {
+  position:static;
+  height: 160px;
+}
+
+.tentang {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tentang-kanan {
+  text-align: right;
+  background-color: #FFD0D0;
+}
+
+.Footer {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.empty-cell {
+  width: 0;
+  padding: 0;
+  border: none;
+}
+/*Hero Section End*/
+
+
+
+
+
+
+
+
